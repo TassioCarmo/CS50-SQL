@@ -110,4 +110,20 @@ BETWEEN ... AND ...
 
 ```
 SELECT "title", "rating" FROM "longlist" ORDER BY "rating" LIMIT 10;
+SELECT "title", "rating", "votes" FROM "longlist" ORDER BY "rating" DESC, "votes" DESC LIMIT 10;
+
 ```
+
+Sort alphabetically
+
+```
+SELECT "title",  FROM "longlist" ORDER BY "title";
+```
+
+### aggregaate functions 
+
+- COUNT
+- AVG
+- MIN
+- MAX
+- SUm
