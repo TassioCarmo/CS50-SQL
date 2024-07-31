@@ -105,6 +105,9 @@ BETWEEN ... AND ...
   ```
 ### ORDER BY
 
+- ORDER BY .. ASC
+- ORDER BY ... DESC
+
 ```
 SELECT "title", "rating" FROM "longlist" ORDER BY "rating" LIMIT 10;
 ```
