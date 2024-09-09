@@ -21,16 +21,24 @@
 
   ```
   SELECT "something" FROM  "table-name";
+  ```
 
-  // SELECT ALL
+
+  **SELECT ALL**
+  ```
   SELECT * FROM "longlist";
+  ```
 
-  //SELECT ONE
+  **SELECT ONE**
+    ```
   SELECT "title" FROM "longlist";
+  ```
 
-  //SLECT MULTIPLE
+  SLECT MULTIPLE
+  ```
   SELECT "title", "author" FROM "longlist";
   ```
+
 ### LIMIT 
 
 - show the first limited numbers 
