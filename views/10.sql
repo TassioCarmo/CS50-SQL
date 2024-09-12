@@ -1,0 +1,1 @@
+SELECT "brightness" AS "Maximum Brightness"  FROM "views" WHERE "artist" = 'Hokusai' ORDER BY "brightness" DESC;

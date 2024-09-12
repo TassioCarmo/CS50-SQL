@@ -1,0 +1,1 @@
+SELECT "first_name" AS "player name" FROM "players" WHERE "final_game" >= '2022-01-01' AND "final_game" <= '2022-12-31' ORDER BY "first_name";
