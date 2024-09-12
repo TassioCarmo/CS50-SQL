@@ -1,6 +1,7 @@
 # SQL (Structured Query Languange)
 
 - Language via which you can create,update and delete data in database
+- view schema sqlite PRAGMA table_info(views);
 
 ## Database management Systems 
 
@@ -198,6 +199,10 @@ Sort alphabetically
 ```
 SELECT "title",  FROM "longlist" ORDER BY "title";
 ```
+### Column Aliases
+
+- SELECT column_name AS alias_name FROM table_name;
+
 
 ### aggregaate functions 
 
